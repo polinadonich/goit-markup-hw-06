@@ -538,6 +538,10 @@ img {
 .footer-part {
   margin-right: 70px;
 }
+
+.footer-part-links {
+  margin-right: 93px;
+}
 .logo-text-footer {
   font-family: Raleway, sans-serif;
   letter-spacing: 0.03em;
@@ -622,6 +626,23 @@ img {
   background: var(--accept-color);
 }
 
+/* Форма подписки */
+.subscribe {
+  margin-top: 20px;
+}
+
+.send-email {
+
+}
+
+.email-submit {
+ 
+}
+
+.icon-send {
+  fill: red;
+}
+/* Модальное окно */
 .backdrop {
   position: fixed;
   top: 0;
@@ -683,10 +704,11 @@ img {
 }
 
 .close-icon {
-  position: absolute;
+  /* position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
+  fill: red;
 }
 
 /* цвет основного текста #212121;
