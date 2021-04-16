@@ -628,19 +628,48 @@ img {
 
 /* Форма подписки */
 .subscribe {
+  display: flex;
   margin-top: 20px;
+
 }
 
 .send-email {
+  width: 358px;
+  height: 50px;
+  margin-right: 10px;
+  background-color: var(--accept-bg-color);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+border-radius: 4px;
+}
+
+.submit-email {
+  display: flex;
+  align-items: center;
+  min-width: 200px;
+  height: 50px;
+
+  color: var(--primery-bg-color);
+  background-color: var(--accept-color);
+  letter-spacing: 0.06em;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 13px 29px;
+  
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
 }
 
-.email-submit {
- 
-}
 
 .icon-send {
-  fill: red;
+margin-left: 10px;
+fill: #fff;
+
 }
 /* Модальное окно */
 .backdrop {
@@ -704,11 +733,11 @@ img {
 }
 
 .close-icon {
-  /* position: absolute;
+  position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%); */
-  fill: red;
+  transform: translate(-50%, -50%);
+
 }
 
 /* цвет основного текста #212121;
