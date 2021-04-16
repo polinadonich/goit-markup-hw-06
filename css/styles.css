@@ -537,6 +537,7 @@ img {
 
 .footer-part {
   margin-right: 70px;
+  margin-left: auto;
 }
 
 .footer-part-links {
@@ -627,10 +628,19 @@ img {
 }
 
 /* Форма подписки */
-.subscribe {
+.form-subscribe {
+  
   display: flex;
   margin-top: 20px;
 
+}
+
+.subscribe {
+  position: relative;
+}
+
+.label-email {
+  position: absolute;
 }
 
 .send-email {
@@ -639,11 +649,24 @@ img {
   margin-right: 10px;
   background-color: var(--accept-bg-color);
   border: 1px solid rgba(255, 255, 255, 0.3);
-
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 border-radius: 4px;
+padding-left: 16px;
 }
 
+.send-email::placeholder {
+  font-weight: normal;
+font-size: 16px;
+line-height: 1.25;
+
+margin-top: 15px;
+margin-bottom: 15px;
+
+}
+
+.form-subscribe:focus {
+  color: #2196f3;
+}
 .submit-email {
   display: flex;
   align-items: center;
