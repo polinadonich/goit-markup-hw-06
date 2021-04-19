@@ -786,10 +786,6 @@ img {
   flex-direction: column;
 }
 
-.modal-form label {
-  display: block;
-}
-
 .label-text {
   color: var(--title-text-color);
 }
