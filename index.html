@@ -615,20 +615,18 @@
                 ></textarea>
               </label>
 
-              <div class="form-checkbox-wrapper">
-                <input
-                  type="checkbox"
-                  name="policy-agree"
-                  id="policy-checkbox"
-                  class="modal-checkbox visually-hidden"
-                />
-                <label for="policy-checkbox" class="modal-checkbox-label">
-                  <span>
-                    Соглашаюсь с рассылкой и принимаю
-                    <a href="#">Условия договора</a>
-                  </span>
-                </label>
-              </div>
+              <label class="policy-label">
+                <input type="checkbox" name="policy-agree" class="checkbox" />
+                <span class="policy-icon">
+                  <svg class="icon-check" width="16" height="15">
+                    <use href="./images/icons.svg#icon-check"></use>
+                  </svg>
+                </span>
+
+                <span class="agree">Соглашаюсь с рассылкой и принимаю</span>
+                <a href="#" class="policy">Условия договора</a>
+              </label>
+
               <button type="submit" class="modal-input-btn">Отправить</button>
             </form>
           </div>
