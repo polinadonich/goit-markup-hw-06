@@ -629,10 +629,8 @@ img {
 
 /* Форма подписки */
 .form-subscribe {
-  
   display: flex;
   margin-top: 20px;
-
 }
 
 .subscribe {
@@ -649,23 +647,22 @@ img {
   margin-right: 10px;
   background-color: var(--accept-bg-color);
   border: 1px solid rgba(255, 255, 255, 0.3);
-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-border-radius: 4px;
-padding-left: 16px;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.25;
-color: rgba(255, 255, 255, 0.6);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  padding-left: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .send-email::placeholder {
   font-weight: 400;
-font-size: 16px;
-line-height: 1.25;
+  font-size: 16px;
+  line-height: 1.25;
 
-margin-top: 15px;
-margin-bottom: 15px;
-
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .form-subscribe:focus {
@@ -687,16 +684,13 @@ margin-bottom: 15px;
   cursor: pointer;
   border-radius: 4px;
   padding: 13px 29px;
-  
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-
 .icon-send {
-margin-left: 10px;
-fill: #fff;
-
+  margin-left: 10px;
+  fill: #fff;
 }
 /* Модальное окно */
 .backdrop {
@@ -729,8 +723,8 @@ fill: #fff;
 
   display: flex;
   flex-direction: row-reverse;
-  min-width: 528px;
-  min-height: 581px;
+  width: 528px;
+  height: 581px;
   background-color: var(--primery-bg-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -764,9 +758,23 @@ fill: #fff;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.modal-content {
+  padding-top: 40px;
+  padding-left: 40px;
+  
 
 }
 
+.modal-header {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primery-text-color);
+}
 /* цвет основного текста #212121;
  */
 
