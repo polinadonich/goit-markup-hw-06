@@ -834,6 +834,10 @@ img {
 .policy {
   color: var(--accept-color);
   text-decoration: underline;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 .checkbox {
   position: absolute;
@@ -877,6 +881,7 @@ img {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  color: var(--title-text-color);
 }
 /* MODAL_BTN */
 .modal-input-btn {
